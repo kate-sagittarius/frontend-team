@@ -10,60 +10,60 @@
 
 <body style="background:rgb(237, 251, 255)" align="center">
     <header>
-        <h1 align="center">Information about me</h1>
+        <h1>Information about me</h1>
         <nav>
-            <a href="#skills">My skills</a>
-            <a href="#books">My readed books</a>
-            <a href="#interests">My interests</a>
-            <a href="#projects">My projects</a>
-            <a href="#whant">What I want to create</a>
-            <a href="#contact">Contact me</a>
-            <a href="#social">My social</a>
+            <ul>
+                <li><a href="#skills">My skills</a></li>
+                <li><a href="#books">My readed books</a></li>
+                <li><a href="#interests">My interests</a></li>
+                <li><a href="#projects">My projects</a></li>
+                <li><a href="#whant">What I want to create</a></li>
+                <li><a href="#contact">Contact me</a></li>
+                <li><a href="#social">My social</a></li>
+            </ul>
         </nav>
     </header>
     <main>
-        <article>
-            <section id="skills">
-                <h2>My skills</h2>
-                <p>HTML <progress max="100" value="30"></progress> </p>
-                <p>CSS <progress max="100" value="15"></progress> </p>
-                <p>JS <progress max="100" value="5"></progress> </p>
-            </section>
-            <section>
-                <table align="center" cellspacing="15">
-                    <thead>
-                        <tr style="color:white">
-                            <th bgcolor="darkyellow" id="books">My readed books</th>
-                            <th bgcolor="black" id="interests">My interests</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>
-                                Mr EGO
-                                <br>
-                                Think & grow rich
-                                <br>
-                                And others..
-                            </td>
-                            <td>
-                                Instagram
-                                <br>
-                                Photos
-                                <br>
-                                Learning new
-                                <br>
-                                Front-End
-                                <br>
-                                GameDev
-                                <br>
-                                Pixel-Art
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-            </section>
-        </article>
+        <section id="skills">
+            <h2>My skills</h2>
+            <p>HTML <progress max="100" value="30"></progress> </p>
+            <p>CSS <progress max="100" value="15"></progress> </p>
+            <p>JS <progress max="100" value="5"></progress> </p>
+        </section>
+        <section>
+            <table align="center" cellspacing="15">
+                <thead>
+                    <tr style="color:white">
+                        <th bgcolor="darkyellow" id="books">My readed books</th>
+                        <th bgcolor="black" id="interests">My interests</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            Mr EGO
+                            <br>
+                            Think & grow rich
+                            <br>
+                            And others..
+                        </td>
+                        <td>
+                            Instagram
+                            <br>
+                            Photos
+                            <br>
+                            Learning new
+                            <br>
+                            Front-End
+                            <br>
+                            GameDev
+                            <br>
+                            Pixel-Art
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
         <article id="projects">
             <h2>My projects</h2>
             <img src="images/ddelem.jpg" width="600" height="400" alt="drop-down-elements">
@@ -107,12 +107,14 @@
                     <p><input type="text" class="contact-form-text" placeholder="Your name" required minlength="4"></p>
                     <p><input type="email" class="contact-form-text" placeholder="Your email" required></p>
                     <p><input type="text" class="contact-form-text" placeholder="Your phone" required></p>
-                    <p><select name="3">
+                    <p>
+                        <select name="country" required>
                             <option value="disabled">Your country</option>
                             <option value="America">America</option>
                             <option value="Ukraine">Ukraine</option>
                             <option value="Russia">Russia</option>
-                        </select></p>
+                        </select>
+                    </p>
                     <p><textarea class="contact-form-text" placeholder="Your message"></textarea></p>
                     <p><input type="submit" class="contact-form-btn" value="Send"></p>
                 </form>
