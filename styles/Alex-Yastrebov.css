@@ -1,7 +1,15 @@
 body,html{
 height:100%;
+background-color: #0E8BAD;
+
+
 
 }
+/* .wrapper{
+  display:flex;
+
+} */
+
 .my-photo{
 width:200px;
 height:150px;
@@ -11,25 +19,45 @@ height:150px;
 
 header{
 display:flex;
-justify-content: space-between;
-flex-direction: row;
-/* top: 50%;
- left: 50%; */
+justify-content: space-around;
 }
-ul{
+
+
+.menu{
 display:flex;
-flex-direction: row;
 background-color: navy;
-justify-content: flex-end;
-align-items:center;
+justify-content: flex-end;  /*not working*/
+align-self:bottom;  /*not working*/
 }
-li{
-list-style-type: none;
-width:120px;
-height:30px;
+
+
+.menu li{
+align-self:bottom; /*not working*/
+list-style-type:circle;
+min-width:220px;
+min-height:30px;
 border:2px solid black;
 color:#fff;
 
+}
+
+
+#ab{
+background-color: white;
+display: flex;
+width:600px;
+justify-content: flex-end;
+flex-direction: column;
+align-items:center;
+border:1px solid gray;
+padding:10px;
+
+
+}
+
+.Experience{
+border:2px solid purple;
+width:500px;
 
 
 }
