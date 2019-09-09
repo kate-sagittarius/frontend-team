@@ -96,6 +96,7 @@ table {
   border-color: #E9967A;
   border-radius: 20px;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 th {
@@ -105,4 +106,26 @@ th {
 td {
   background: #F5DEB3;
   padding: 10px;
+}
+
+.me {
+  margin-bottom: 50px;
+  float: center;
+  font-size: 15px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 200;
+  font-family: courier, monospace;
+  }
+
+footer {
+  float: center;
+  font-size: 15px;
+  color: black;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 200;
+  font-family: courier, monospace;
+  background: #F5DEB3;
 }
