@@ -3,7 +3,7 @@ body{
     padding:0;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 12px;
-    box-sizing:border-box;
+    
 }
 
 .container{
@@ -43,4 +43,18 @@ a:link{
 a:hover, a:visited{
     color:blue;
     text-decoration:none;
+}
+.photo{
+    background-color:#BACEDB;
+}
+h1{
+    text-align:center;
+    color: black;
+    padding-top:20px;
+}
+.photo-block{
+    text-align:center;
+}
+.photo img{
+border-radius:50%;
 }
