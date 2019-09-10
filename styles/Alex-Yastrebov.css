@@ -1,12 +1,12 @@
 body,html{
 height:100%;
-background-color: #7A41E8;
-
+/* background-color: #7A41E8; */
+background-color: #27265E;
 
 
 }
 /* .wrapper{
-  display:flex;
+  margin-top: 0px;
 
 } */
 
@@ -20,17 +20,26 @@ height:150px;
 header{
 display:flex;
 justify-content: space-around;
+align-items: flex-start;
+/* margin-top:0px; */ not working
+
 }
 
+nav{
+display: flex;
+
+}
 
 .menu{
 display:flex;
-background-color: navy;
+background-color: #73A5EB;
 justify-content: center;  /*not working*/
-align-self:bottom;  /*not working*/
+align-self:stretch;  /*not working*/
 height:75px;
-border:3px solid blue;
+border:1px dashed grey;
+margin-top: 0px;
 }
+
 
 
 .menu li{
@@ -39,23 +48,30 @@ list-style-type:circle;
 min-width:220px;
 min-height:30px;
 color:#fff;
+font-size:20px;
 
+}
+.menu li:hover{
+color: #7984EB;
 
 }
 
+main{
+display:flex;
+justify-content: stretch;
+}
 
 .about_wrapper{
-font-family: fantasy;
-font-size:18px;
-background-color: #B847FF;
+font-family: font92631;
+font-size:28px;
+background-color: #9147FF;
 display: flex;
-width:600px;
-justify-content: flex-end;
-/* flex-direction: column; */
+/* width:600px; */ is not working if i want to strectch it
+/* justify-content: center; */
 align-items:center;
 border:1px solid gray;
 padding:10px;
-
+word-spacing: 0.7em;
 }
 .about{
 transform: rotate(-90deg);
@@ -77,8 +93,10 @@ margin-top:0px;
 
 .skillsect li{
   font-weight:bold;
+  border:2px dashed red;
+  padding:15px;
 }
-.skills{
+#skills{
 display: flex;
 justify-content: space-around;
 border:2px solid red;
