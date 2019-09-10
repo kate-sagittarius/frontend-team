@@ -1,46 +1,30 @@
-body,html{
-height:100%;
-/* background-color: #7A41E8; */
+body{
 background-color: #27265E;
-color:#fff;
-
+color:#BDE9DD;
 }
-/* .wrapper{
-  margin-top: 0px;
-
-} */
 
 .my-photo{
 width:200px;
 height:150px;
 }
 
-
-
-header{
+.top{
 display:flex;
 justify-content: space-around;
 align-items: flex-start;
-/* margin-top:0px; */ not working
-
 }
 
-nav{
+.top_navigation{
 display: flex;
-
 }
 
 .menu{
 display:flex;
 background-color: #73A5EB;
-justify-content: center;  /*not working*/
-align-self:stretch;  /*not working*/
 height:75px;
 border:1px dashed grey;
 margin-top: 0px;
 }
-
-
 
 .menu li{
 align-self:center;
@@ -49,34 +33,46 @@ min-width:220px;
 min-height:30px;
 color:#fff;
 font-size:20px;
-
 }
+
 .menu li:hover{
 color: #7984EB;
-
 }
 
-main{
+.middle{
 display:flex;
 justify-content: stretch;
 }
 
+.h1_about{
+margin-top:0px;
+}
+
 .about{
-transform: rotate(-90deg);
 width:150px;
 }
 
 .about_wrapper{
-font-family: font92631;
-font-size:28px;
-background-color: #9147FF;
+flex-direction: column;
 display: flex;
-/* width:600px; */ is not working if i want to strectch it
-/* justify-content: center; */
 align-items:center;
 border:1px solid gray;
 padding:10px;
-word-spacing: 0.7em;
+background-color: #9147FF;
+min-width: 100%;
+}
+
+.about_text{
+font-size:32px;
+word-spacing: 0.5em;
+border-left: 5px solid black;
+padding:10px;
+
+}
+
+.about_text::first-letter{
+font-size: 38px;
+
 }
 
 .skillsection{
@@ -84,42 +80,24 @@ word-spacing: 0.7em;
   justify-content: center;
 }
 
-
-#skills{
-
+.skills{
+padding:0px;
 display: flex;
-/* justify-content: flex-end; */
-border:2px solid red;
-/* height:50px; */
-align-items: flex-end; /*Not working*/
+justify-content: space-between;
+align-items: flex-end;
 
 }
 
 .skillsection li{
+  margin:0 50px;
   display: flex;
   font-weight:normal;
   border:2px dashed blue;
   padding:25px;
-  /* justify-content: flex-end; */
 }
-
-
-
-
-
-
-
-
 
 .Experience{
 border:2px solid purple;
-width:500px;
-
-
-}
-
-h1{
-background-color: blue;
-margin-top:0px;
-
+width:100%;
+margin-top:150px;
 }
