@@ -4,180 +4,183 @@
 <head>
   <title>About me</title>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="../styles/iryna-yehorova.css">
 </head>
 
 <body>
-  <header>
-    <nav>
-      <h2>Welcome to my site</h2>
+  <div class="container">
+    <header>
+      <nav>
+        <h2>Welcome to my site</h2>
+        <ul>
+          <li> <a href="#">Home</a></li>
+          <li><a href="#about_me">About me</a></li>
+          <li><a href="#abilities">My abilities</a></li>
+          <li><a href="#town">My town</a></li>
+          <li><a href="#contact">Contact me</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1 id="about_me">About me</h1>
+      <section>
+        <p>My name is Iryna. Here is my photo:</p>
+        <img src="../images/team-members/iryna-yehorova.jpg" alt="Iryna's photo" width="15%">
+        <br>
+      </section>
+      <section>
+        <h3>Top 5 films I like:</h3>
+        <ol>
+          <li>Harry Potter</li>
+          <li>Lord of the Rings</li>
+          <li>Tomb Raider</li>
+          <li>Avengers</li>
+          <li>Iron Man I</li>
+        </ol>
+        <p>I like many films, but I cannot remember all the names at once. </p>
+        <h3>Top 5 places I want to visit:</h3>
+        <ul>
+          <li>England</li>
+          <li>Germany</li>
+          <li>Italy</li>
+          <li>India</li>
+          <li>Australia</li>
+        </ul>
+        <p>I like my home, and I do not want to travel all over the world. I hope
+          I can visit a lot of places across whole my life.</p>
+        <br>
+      </section>
+      <section>
+        <h3 id="abilities">My abilities</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>Ability</th>
+              <th>Level</th>
+              <th>Do I like it?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Sleeping 20 hours a day</td>
+              <td>10</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Drinking tea</td>
+              <td>14</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Working all night long</td>
+              <td>7</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Reading horoscopes</td>
+              <td>52</td>
+              <td>No</td>
+            </tr>
+            <tr>
+              <td>Being kind and cooperative</td>
+              <td>24</td>
+              <td>Yes</td>
+            </tr>
+            <tr>
+              <td>Listening to music while walking</td>
+              <td>52</td>
+              <td>No</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>This is not the whole list of my hidden talents. I like shopping,
+          playing with my child, walking with my dog, hugging with my husband,
+          talking with my family, sewing, knitting, reading books, going abroad,
+          etc.</p>
+        <br>
+      </section>
+      <article>
+        <h3 id="town">That is why I like my town</h3>
+        <p>Kyiv is not my native city. Actually now I live in <strong> Brovary</strong>.
+          It is a small town near Kyiv. Living there is perhaps the best choice I had
+          in my <em>entire</em> life (just for now). <br> I like at the height of 60 m above
+          the ground. Speaking honestlly I hate the height, I am scared of it,
+          but living at the 19th floor is cosy and normal for me. I remember
+          the first months when I was frightened walking near the windows. Now I can even
+          clean them! But only when they are shut &#9786;</p>
+        <br>
+        <h4>What other people think about my favourite town</h4>
+        <p>My mom:</p>
+        <blockquote>
+          Such a good place! I like living near Kyiv. It is like you can go
+          shopping to the big malls and visit the best hospitals. But breeze the
+          fresh air of small town.
+        </blockquote>
+        <br>
+        <p>My husband:</p>
+        <blockquote>
+          I do not like Brovary because I work in Kyiv. Every morning I need to
+          drive to other side of Kyiv to get to work. It is annoying. I prefer to
+          live near my work.
+        </blockquote>
+        <br>
+        <p>My daughter:</p>
+        <blockquote>
+          Blablablabla bla blablabla. Ooh. Pff. Bla bla...
+        </blockquote>
+        <br>
+      </article>
+      <section>
+        <h3 id="contact">Contact me</h3>
+        <form action="#" method="get">
+          Write your name*:
+          <input type="text" name="user_name" placeholder="Name" required>
+          <br>
+          Write yout email:
+          <input type="email" name="user_email" placeholder="Email">
+          <br>
+          Write your telephone*:
+          <input type="tel" name="telephone" placeholder="(088) 888 88 88"
+            pattern="([0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required>
+          <br>
+          Your gender:
+          <input type="radio" name='gender' value="male">Male
+          <input type="radio" name="gender" value="female">Female
+          <input type="radio" name="gender" value="other">Other
+          <br>
+          Your date of birth:
+          <input type="date" name="date_of_birth">
+          <br>
+          Write your opinions, ideas, etc:
+          <textarea width="120"></textarea>
+          <br>
+          <p>with * marked all necessary elements</p>
+          <input type="submit" value="Submit">
+          <input type="reset" value="Reset">
+        </form>
+        <br>
+      </section>
+    </main>
+    <footer>
+      <time datetime="2019-04-09 20:50">04/09/2019</time>
+      <p>&copy; All rights are reserved</p>
+      <p>Me at social networks</p>
       <ul>
-        <li> <a href="#">Home</a></li>
-        <li><a href="#about_me">About me</a></li>
-        <li><a href="#abilities">My abilities</a></li>
-        <li><a href="#town">My town</a></li>
-        <li><a href="#contact">Contact me</a></li>
+        <li><a href="https://www.facebook.com/profile.php?id=100017643998366" target="_blank">
+            <img src="../images/facebook.png" alt="Facebook profile" width="40px">
+          </a></li>
+        <li><a href="https://github.com/NervoYe" target="_blank"><img src="../images/Github.png" alt="Github profile"
+              width="50px"></a>
+        </li>
+        <li><a href="https://www.instagram.com/yehorova.irene/?hl=uk" target="_blank"><img src="../images/Instagram.png"
+              alt="Instagram profile" width="40px"></a></li>
+        <li><a href="#" target="_blank"><img src="../images/Linkedin.png" alt="Linkedin profile" width="40px"></a></li>
       </ul>
-    </nav>
-  </header>
-  <main>
-    <h1 id="about_me">About me</h1>
-    <section>
-      <p>My name is Iryna. Here is my photo:</p>
-      <img src="../images/team-members/iryna-yehorova.jpg" alt="Iryna's photo" width="15%">
-      <br>
-    </section>
-    <section>
-      <h3>Top 5 films I like:</h3>
-      <ol>
-        <li>Harry Potter</li>
-        <li>Lord of the Rings</li>
-        <li>Tomb Raider</li>
-        <li>Avengers</li>
-        <li>Iron Man I</li>
-      </ol>
-      <p>I like many films, but I cannot remember all the names at once. </p>
-      <h3>Top 5 places I want to visit:</h3>
-      <ul>
-        <li>England</li>
-        <li>Germany</li>
-        <li>Italy</li>
-        <li>India</li>
-        <li>Australia</li>
-      </ul>
-      <p>I like my home, and I do not want to travel all over the world. I hope
-        I can visit a lot of places across whole my life.</p>
-      <br>
-    </section>
-    <section>
-      <h3 id="abilities">My abilities</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Ability</th>
-            <th>Level</th>
-            <th>Do I like it?</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Sleeping 20 hours a day</td>
-            <td>10</td>
-            <td>No</td>
-          </tr>
-          <tr>
-            <td>Drinking tea</td>
-            <td>14</td>
-            <td>Yes</td>
-          </tr>
-          <tr>
-            <td>Working all night long</td>
-            <td>7</td>
-            <td>No</td>
-          </tr>
-          <tr>
-            <td>Reading horoscopes</td>
-            <td>52</td>
-            <td>No</td>
-          </tr>
-          <tr>
-            <td>Being kind and cooperative</td>
-            <td>24</td>
-            <td>Yes</td>
-          </tr>
-          <tr>
-            <td>Listening to music while walking</td>
-            <td>52</td>
-            <td>No</td>
-          </tr>
-        </tbody>
-      </table>
-      <p>This is not the whole list of my hidden talents. I like shopping,
-        playing with my child, walking with my dog, hugging with my husband,
-        talking with my family, sewing, knitting, reading books, going abroad,
-        etc.</p>
-      <br>
-    </section>
-    <article>
-      <h3 id="town">That is why I like my town</h3>
-      <p>Kyiv is not my native city. Actually now I live in <strong> Brovary</strong>.
-        It is a small town near Kyiv. Living there is perhaps the best choice I had
-        in my <em>entire</em> life (just for now). <br> I like at the height of 60 m above
-        the ground. Speaking honestlly I hate the height, I am scared of it,
-        but living at the 19th floor is cosy and normal for me. I remember
-        the first months when I was frightened walking near the windows. Now I can even
-        clean them! But only when they are shut &#9786;</p>
-      <br>
-      <h4>What other people think about my favourite town</h4>
-      <p>My mom:</p>
-      <blockquote>
-        Such a good place! I like living near Kyiv. It is like you can go
-        shopping to the big malls and visit the best hospitals. But breeze the
-        fresh air of small town.
-      </blockquote>
-      <br>
-      <p>My husband:</p>
-      <blockquote>
-        I do not like Brovary because I work in Kyiv. Every morning I need to
-        drive to other side of Kyiv to get to work. It is annoying. I prefer to
-        live near my work.
-      </blockquote>
-      <br>
-      <p>My daughter:</p>
-      <blockquote>
-        Blablablabla bla blablabla. Ooh. Pff. Bla bla...
-      </blockquote>
-      <br>
-    </article>
-    <section>
-      <h3 id="contact">Contact me</h3>
-      <form action="#" method="get">
-        Write your name*:
-        <input type="text" name="user_name" placeholder="Name" required>
-        <br>
-        Write yout email:
-        <input type="email" name="user_email" placeholder="Email">
-        <br>
-        Write your telephone*:
-        <input type="tel" name="telephone" placeholder="(088) 888 88 88" pattern="([0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
-          required>
-        <br>
-        Your gender:
-        <input type="radio" name='gender' value="male">Male
-        <input type="radio" name="gender" value="female">Female
-        <input type="radio" name="gender" value="other">Other
-        <br>
-        Your date of birth:
-        <input type="date" name="date_of_birth">
-        <br>
-        Write your opinions, ideas, etc:
-        <textarea width="120"></textarea>
-        <br>
-        <p>with * marked all necessary elements</p>
-        <input type="submit" value="Submit">
-        <input type="reset" value="Reset">
-      </form>
-      <br>
-    </section>
-  </main>
-  <footer>
-    <time datetime="2019-04-09 20:50">04/09/2019</time>
-    <p>&copy; All rights are reserved</p>
-    <p>Me at social networks</p>
-    <ul>
-      <li><a href="https://www.facebook.com/profile.php?id=100017643998366" target="_blank">
-          <img src="../images/facebook.png" alt="Facebook profile" width="40px">
-        </a></li>
-      <li><a href="https://github.com/NervoYe" target="_blank"><img src="../images/Github.png" alt="Github profile"
-            width="50px"></a>
-      </li>
-      <li><a href="https://www.instagram.com/yehorova.irene/?hl=uk" target="_blank"><img src="../images/Instagram.png"
-            alt="Instagram profile" width="40px"></a></li>
-      <li><a href="#" target="_blank"><img src="../images/Linkedin.png" alt="Linkedin profile" width="40px"></a></li>
-    </ul>
-    <a href="tel:+380123456789">My phone</a>
-    <a href="mailto:mynervos@gmail.com">My email</a>
-    <a href="skype:+380630554500">My skype</a>
-  </footer>
+      <a href="tel:+380123456789">My phone</a>
+      <a href="mailto:mynervos@gmail.com">My email</a>
+      <a href="skype:+380630554500">My skype</a>
+    </footer>
+  </div>
 </body>
 
 </html>
