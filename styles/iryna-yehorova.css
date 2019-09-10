@@ -23,7 +23,7 @@ h2{
     padding-top:20px;
 }
 
-.menu{
+.menu, .list-block{
     display:flex;
     flex-direction:row;
     justify-content: flex-end;
@@ -57,4 +57,23 @@ h1{
 }
 .photo img{
 border-radius:50%;
+}
+
+.list-block{
+    justify-content:center;
+    background-color:#F5B0A0;
+}
+.list{
+    width:30%;
+    padding-right:20px;
+    padding-left: 130px;
+    margin: 0 auto;
+    padding-top:20px;
+
+}
+.list img{
+    width: 35px;
+    display: block;
+    margin: 0 auto;
+    
 }
