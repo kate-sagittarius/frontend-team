@@ -2,7 +2,7 @@ body,html{
 height:100%;
 /* background-color: #7A41E8; */
 background-color: #27265E;
-
+color:#fff;
 
 }
 /* .wrapper{
@@ -88,25 +88,25 @@ word-spacing: 0.7em;
 #skills{
 
 display: flex;
-justify-content: center;
+
 border:2px solid red;
 /* height:50px; */
 align-items: flex-end; /*Not working*/
 
 }
 
-.skillsect li{
-  font-weight:bold;
-  border:2px dashed red;
-  padding:15px;
+.skillsection li{
+  display: flex;
+  font-weight:normal;
+  border:2px dashed blue;
+  padding:25px;
+  justify-content:space-between;
 }
 
 
-.Test{
-display: flex;
-justify-content: flex-end;
 
-}
+
+
 
 
 
