@@ -1,77 +1,77 @@
 body{
-background-color: #27265E;
-color:#BDE9DD;
+  background-color: #27265E;
+  color:#BDE9DD;
 }
 
 .my-photo{
-width:200px;
-height:150px;
+  width:200px;
+  height:150px;
 }
 
 .top{
-display:flex;
-justify-content: space-around;
-align-items: flex-start;
+  display:flex;
+  justify-content: space-around;
+  align-items: flex-start;
 }
 
 .top_navigation{
-display: flex;
+  display: flex;
 }
 
 .menu{
-display:flex;
-background-color: #73A5EB;
-height:75px;
-border:1px dashed grey;
-margin-top: 0px;
+  display:flex;
+  background-color: #73A5EB;
+  height:75px;
+  border:1px dashed grey;
+  margin-top: 0px;
 }
 
 .menu li{
-align-self:center;
-list-style-type:circle;
-min-width:220px;
-min-height:30px;
-color:#fff;
-font-size:20px;
+  align-self:center;
+  list-style-type:circle;
+  min-width:220px;
+  min-height:30px;
+  color:#fff;
+  font-size:20px;
 }
 
 .menu li:hover{
-color: #7984EB;
+  color: #7984EB;
 }
 
 .middle{
-display:flex;
-justify-content: stretch;
+  display:flex;
+  justify-content: stretch;
 }
 
 .h1_about{
-margin-top:0px;
+  margin-top:0px;
 }
 
 .about{
-width:150px;
+  width:150px;
 }
 
 .about_wrapper{
-flex-direction: column;
-display: flex;
-align-items:center;
-border:1px solid gray;
-padding:10px;
-background-color: #9147FF;
-min-width: 100%;
+  flex-direction: column;
+  display: flex;
+  align-items:center;
+  border:1px solid gray;
+  padding:10px;
+  background-color: #9147FF;
+  min-width: 100%;
 }
 
 .about_text{
-font-size:32px;
-word-spacing: 0.5em;
-border-left: 5px solid black;
-padding:10px;
+  font-size:32px;
+  word-spacing: 0.5em;
+  border-left: 5px solid black;
+  padding:10px;
 
 }
 
 .about_text::first-letter{
-font-size: 38px;
+  font-size: 38px;
 
 }
 
@@ -81,10 +81,10 @@ font-size: 38px;
 }
 
 .skills{
-padding:0px;
-display: flex;
-justify-content: space-between;
-align-items: flex-end;
+  padding:0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 
 }
 
@@ -97,7 +97,7 @@ align-items: flex-end;
 }
 
 .Experience{
-border:2px solid purple;
-width:100%;
-margin-top:150px;
+  border:2px solid purple;
+  width:100%;
+  margin-top:150px;
 }
