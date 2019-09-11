@@ -15,10 +15,12 @@ h1, h2, h3, h4 {
   box-shadow: 2px 2px 8px #ccc;
   position: fixed;
   width: 100%;
+  z-index: 1000;
 }
 
 .main-content {
   padding: 110px 20px 20px;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
 }
 
 .people-section {
@@ -40,7 +42,7 @@ h1, h2, h3, h4 {
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
-  /* align-content: flex-start; */
+  align-content: flex-start;
 }
 
 .student__link {
@@ -55,6 +57,7 @@ h1, h2, h3, h4 {
   align-items: center;
   background-color: #D6DBD2;
   box-shadow: 2px 2px 2px #ccc;
+  margin: 15px;
 }
 
 .student__card:hover {
@@ -114,4 +117,15 @@ h1, h2, h3, h4 {
 .student__name:hover {
   border-bottom: 2px dashed #E75A7C;
   margin-bottom: 8px;
+}
+
+.footer {
+  padding: 0 20px;
+  background-color: #E75A7C;
+  min-height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-style: italic;
+  color: #D6DBD2;
 }
