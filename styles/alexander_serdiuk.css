@@ -47,6 +47,14 @@ td:first-child, th:first-child {
      border-left: none;
 }
 
+div {
+
+	background-color: #F8F8FF;
+	width: 600px;
+	height: 140px;
+	border-radius:6px;
+}
+
 .avatar{
 
 	width: 400px;
