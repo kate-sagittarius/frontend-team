@@ -2,28 +2,31 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="../styles/IllyaPriymak.css">
     <title>My resume</title>
   </head>
-  <body>
+  <body class="screen">
     <header>
       <h2>About my self</h2>
       <nav>
         <ul>
-          <li><a href="#part1">About me</a></li>
-          <li><a href="#part2">Positive qualities about myself</a></li>
-          <li><a href="#part3">My hobbys</a></li>
-          <li><a href="#part4">Contact me</a></li>
+          <li><a href="#part1" class="link">About me</a></li>
+          <li><a href="#part2" class="link">Positive qualities about myself</a></li>
+          <li><a href="#part3" class="link">My hobbys</a></li>
+          <li><a href="#part4" class="link">Contact me</a></li>
         </ul>
       </nav>
-      <h1><section id="part1"><i>About me</i></section></h1>
-    <img src="../images/photo_2019-09-08_09-58-52.jpg" width="400" height="450" alt="my photo">
+      <h1 id="part1"><i>About me</</h1>
+    <img src="../images/photo_2019-09-08_09-58-52.jpg" width="400" height="500" alt="my photo">
     </header>
     <main>
       <section>
-        <p>Hello. My name is Illya, i am 20 years old and i live in Vishneve,
-           im working barista, and i am students in Beetroot Academy</p>
-        <br>
-        <h2><section id="part2"><i>Positive qualities about myself</i></h2>
+        <p>
+          Hello. My name is Illya, i am 20 years old and i live in Vishneve,
+           im working barista, and i am students in Beetroot Academy<br>
+          I like travel and my dream is visited Barselona in future and ride a skateboard there and just have a chill
+        </p>
+        <h2 id="part2"><i>Positive qualities about myself</i></h2>
         <ol>
           <li>I always set myself up for a good mood</li>
           <li>I always love to listen to good music with friends</li>
@@ -31,7 +34,7 @@
         </ol>
       </section>
       <section>
-        <h2><section id="part3"><i>My hobbys</i></section></h2>
+        <h2 id="part3"><i>My hobbys</i></h2>
         <table>
           <thead>
            <tr>
@@ -58,24 +61,21 @@
       </section>
     </main>
     <footer>
-      <h2><section id="part4"><i>Contact me "Pojilaya CHIM-CHIMA"</i></section></h2>
-      <button class="btn btn-success"
- onclick=" window.open('https://www.instagram.com/illiyhaaa/?hl=ru','_blank')">Instagram</button><br>
- <section>
-   <h3>Contact with me</h3>
-  <form action="/action_page.php" autocomplete="on">
-    First name:<input type="text" name="fname"><br>
-    Last name: <input type="text" name="lname"><br>
-    E-mail: <input type="email" name="email" autocomplete="off"><br>
-    <input type="submit">
-  </form>
- <form action="/action_page.php" autocomplete="on">
-   First name:<input type="text" name="fname"><br>
-   Last name: <input type="text" name="lname"><br>
-   E-mail: <input type="email" name="email" autocomplete="off"><br>
-   <input type="submit">
- </section>
-</form>
+      <h2 id="part4"><i>Contact me in instagram and soundcloud</i> </h2>
+       <button class="btn btn-success" onclick=" window.open('https://www.instagram.com/illiyhaaa/?hl=ru','_blank')">
+         <img src="../images/instagram-mobile.jpg" alt="my computer">
+          <button class="btn btn-success" onclick=" window.open('https://soundcloud.com/lovkille','_blank')">
+            <img src="../images/img.jpg" alt="my computer">
+       </button><br>
+       <section>
+         <h3>Contact with me</h3>
+         <form action="/action_page.php" autocomplete="on">
+           First name:<input type="text" name="fname"><br>
+           Last name: <input type="text" name="lname"><br>
+           E-mail: <input type="email" name="email" autocomplete="off"><br>
+           <input type="submit">
+        </form>
+      </section>
     </footer>
   </body>
 </html>
