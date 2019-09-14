@@ -1,0 +1,156 @@
+body{
+    font-family: Arial, sans-serif;
+    padding: 0px; 
+    margin: 0px;
+    background-image: url(../images/shestopal/Hazel.jpg);
+}
+
+.clearfix:after{
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+
+header{
+    background: url(../images/shestopal/fone.flower.jpg) no-repeat;
+    height: 1200px;
+}
+
+img{
+    border-radius: 25px;
+}
+
+nav{
+    background-color: #1b7180;
+    border-radius: 25px;
+}
+
+nav :hover{
+    background-color: rgb(153, 39, 125);
+    border-radius: 25px;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-left: 30px;
+}
+.menu li{
+    display: inline-block;
+    margin-right: 60px;
+}
+.menu a{
+    color: burlywood;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+fieldset{
+    background-color: rgba(245, 112, 163, 0.4);
+}
+
+h1{
+        margin-block-start: 0;
+        margin-block-end: 0;
+        margin: 15px;
+        font-size: 55px;
+        background: rgba(75, 174, 212, 0.3); /* Цвет фона */
+        color: rgb(238, 148, 148); /* Цвет текста */
+        padding: 5px; /* Поля вокруг текста */
+        border-radius: 25px;
+        font-weight: bold;
+    }
+
+h2{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+p{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 16px;
+    }
+
+table{
+    border-radius: 4px;
+}
+
+#preferences{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.hobby{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.hobby_item{
+    width: 350px;
+    float: left;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.hobby_item h3{
+    margin-block-start: 0;
+    margin-block-end: 0;
+    font-size: 18px;
+    color: #1b7180;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hobby_item p{
+    color: rgb(17, 37, 68);
+    font-size: 14 px;
+    line-height: 1.4em;
+    text-align: center;
+}
+
+.hobby_item:last-child{
+    margin: right;
+}
+
+.hobby_item:nth-child(2) {
+    margin-left: 15px;
+}
+
+#flowers{
+    background-image: url(../images/shestopal/copy.jpg);
+}
+
+.eco{
+    padding-bottom: 15px;
+}
+
+.eco h3{
+    color: #0f4953;
+}
+
+.eco p{
+    color: #0f4953;
+}
+.flower{
+    background-color: rgba(127, 246, 255, 0.27);
+    padding-bottom: 15px;
+}
+
+#contact{
+    background-color: #ffdde14d;
+    text-align: center;
+    font-size: 10px;
+}
+
+a {
+    color: #c0571a;
+}

@@ -1,0 +1,43 @@
+h1{
+	color:steelblue;
+}
+body{
+	background-color: turquoise;
+	margin: 0;
+}
+h4{
+	color: white
+}
+a{
+	color: white
+}
+header{
+	background-color: #dcdcdc;
+	margin-bottom:5px;
+	display: flex;
+	align-items: center;
+}
+.menu{
+	margin:0;
+	padding:3px;
+}
+.menu li{
+	display:inline;
+	margin-right:5px;
+	border:1px solid #000;
+	padding:3px;
+}
+.menu a{
+	color:red;
+	text-decoration:none;
+}
+.menu a:hover{
+	color:blue;
+}
+.logo{
+	height:auto;
+	width:auto;
+	max-width:100px;
+	max-height:100px;
+	display: flex;
+}
